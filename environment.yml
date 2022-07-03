@@ -1,4 +1,4 @@
-name: mtlner
+name: mtl_ner
 channels:
   - pytorch
   - <unknown>
