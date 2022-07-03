@@ -7,7 +7,7 @@ Originally the code was developed for detecting social determinants of health (S
 ## Requirements
 This code was tested on `python3`. We suggest using a virtual environment.
 * Install [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
-* Run `conda env create -f environment.yml` to create an environment named `mtl_ner` with all necessary dependencies.
+* Run `conda env create -f environment.yml` to create an environment named `mtl_ner` with all necessary dependencies. Currently the environment file has many unnecessarey dependencies. Just installing pytorch, transformers, numpy and tqdm packages should be enough.
 * Run `conda activate mtl_ner` to activate the conda environment.
 * Create `datasets`, `logs`, and `output` directories inside the parent directory. Keep your data files inside the `datasets` directory.
   ```sh
